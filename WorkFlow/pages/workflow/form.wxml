@@ -1,0 +1,15 @@
+<!--pages/workflow/form.wxml-->
+<view class='section'>
+  <view class='section_title'>
+    <scroll-view scroll-y 
+    style="fix:1;" 
+    bindscrolltoupper="upper" 
+    bindscroll="scroll" 
+    scroll-into-view="{{toView}}" 
+    scroll-top="{{scrollTop}}" 
+    wx:for="{{fields}}"
+    wx:key="12211">
+      <form-field class="text-field" title="{{item.title}}" required="{{item.required}}" wx:key="{{item.key}}" />
+    </scroll-view>
+  </view>
+</view>

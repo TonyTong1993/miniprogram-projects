@@ -1,0 +1,60 @@
+/* pages/workflow/form.wxss */
+.skyblue {
+  flex: 1;
+  height: 100px;
+  background-color: #1a8bf5
+}
+
+.hover-skyblue {
+  background-color: #105392
+}
+
+.red {
+  flex: 1;
+  height: 100px;
+  background-color: #e70d0d
+}
+
+.hover-red {
+  background-color: #970505
+}
+
+.darkgray {
+  flex: 1;
+  height: 100px;
+  background-color: #36536d
+}
+
+.hover-darkgray {
+  background-color: #283c4e
+}
+
+.green {
+  flex: 1;
+  height: 100px;
+  background-color: #0df393
+}
+
+.hover-green {
+  background-color: #0a945a
+}
+
+.yellow {
+  flex: 1;
+  height: 100px;
+  background-color: yellow
+}
+
+.hover-yellow {
+  background-color: #b4b40b
+}
+
+.white {
+  flex: 1;
+  height: 100px;
+  background-color: white
+}
+
+.hover-white {
+  background-color: #cac7c7
+}
