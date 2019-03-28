@@ -1,0 +1,7 @@
+<!--pages/components/form-fields/index.wxml-->
+
+<form-field-text title="{{item.title}}" wx:if="{{true}}" required="{{true}}"/>
+<form-field-image title="{{item.title}}" wx:if="{{isImage}}" required="{{required}}"/>
+<form-field-audio title="{{item.title}}" wx:if="{{isAudio}}" required="{{required}}"/>
+<form-field-video title="{{item.title}}" wx:if="{{isVideo}}" required="{{required}}"/>
+<form-field-location title="{{item.title}}" wx:if="{{isLocation}}" required="{{required}}"/>

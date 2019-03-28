@@ -1,17 +1,28 @@
 /**app.wxss**/
 @import "./src/icon.wxss";
+@import 'style/weui.wxss';
 .iconfont {
   font-family: "iconfont";
   font-size: 60rpx;
 }
 .icon-arrow-right:before{content: '\e75c';}
 .icon-arrow-left:before{content: '\e75b';}
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+
+page{
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.page__hd {
+    padding: 40px;
+}
+.page__bd {
+    padding-bottom: 40px;
+}
+.page__bd_spacing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+

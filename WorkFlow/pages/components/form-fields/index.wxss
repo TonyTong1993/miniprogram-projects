@@ -1,0 +1,49 @@
+/* pages/components/form-fields/index.wxss */
+
+/* form field */
+
+.form-field-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.asterisk-box {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+}
+
+.asterisk {
+  color: red;
+}
+
+.title-normal {
+  color: #333;
+  font-size: 15px;
+}
+
+.title-active {
+  color: skyblue;
+  font-size: 12px;
+}
+
+.input-box {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+

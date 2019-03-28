@@ -55,7 +55,7 @@ Page({
   enterWorkFlow:function(e) {
     console.log(e)
     wx.navigateTo({
-      url: '../workflow/form',
+      url: '../form/form-page',
       success: function(res) {console.log(res)},
       fail: function(res) {console.log(res)},
       complete: function (res) {console.log(res)},

@@ -1,0 +1,11 @@
+<!--pages/form/form-page.wxml-->
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-cells__title">带图标、说明、跳转的列表项</view>
+    <view class="weui-cells weui-cells_after-title">
+      <block wx:for="{{formItems}}">
+        <form-field-item item="{{item}}"/>
+      </block>
+    </view>
+  </view>
+</view>

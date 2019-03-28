@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+      "form-field-text": "./form-field-text/index",
+      "form-field-image": "./form-field-image/index",
+      "form-field-video": "./form-field-video/index",
+      "form-field-audio": "./form-field-audio/index",
+      "form-field-location": "./form-field-location/index"
+  }
+}

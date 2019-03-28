@@ -2,13 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/form/index",
-    "pages/workflow/form"
+    "pages/form/form-page"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#87ceeb",
+    "navigationBarTitleText": "工作流",
     "navigationBarTextStyle": "black"
   }
 }
