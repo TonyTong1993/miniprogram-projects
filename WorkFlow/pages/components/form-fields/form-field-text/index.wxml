@@ -1,5 +1,12 @@
 <!--components/form-fields/form-field-text.wxml-->
-<navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-  <view class="weui-cell__bd">cell standard</view>
-  <view class="weui-cell__ft weui-cell__ft_in-access">说明文字</view>
-</navigator>
+<view class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='onTapTitleView'>
+  <view class='list-cell__content'>
+    <view class='title-box' >
+      <view class='asterisk-box asterisk'>{{required ? '*':''}}</view>
+      <text class="{{isActive?'title-active':'defaultTextColor'}}">{{title}}</text>
+    </view>
+    <view class='input-box' wx:if="{{isActive}}" catchtap='onTapInputView'>
+         <textarea  auto-height placeholder='请输入内容' maxlength='140' focus='{{focus}}' cursor-spacing='20'></textarea>
+    </view>
+  </view>
+</view>

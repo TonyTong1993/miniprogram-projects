@@ -22,22 +22,26 @@ module.exports = Behavior({
   },
   data: {
     fields: {
-      key:String,
-      value : null
+      key: String,
+      value: null
     }
   },
-  attached: function () { },
+  attached: function() {},
   methods: {
-    myBehaviorMethod: function () {
+    myBehaviorMethod: function() {
       console.log('log from my-behavior.js')
     },
-    onTapTitleView: function () {
-      const { isActive } = this.data;
-      let active = !isActive;
-      this.setData({
-        isActive: active
-      })
+    onTapTitleView: function() {
+      const {
+        isActive
+      } = this.data;
+      if (!isActive) {
+        let active = !isActive;
+        this.setData({
+          isActive: active
+        })
+      }
+
     }
   }
 })
-

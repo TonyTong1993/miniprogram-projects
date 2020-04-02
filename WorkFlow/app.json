@@ -9,5 +9,6 @@
     "navigationBarBackgroundColor": "#87ceeb",
     "navigationBarTitleText": "工作流",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

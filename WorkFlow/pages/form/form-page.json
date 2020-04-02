@@ -1,9 +1,5 @@
 {
   "usingComponents": {
-    "form-field-item": "../components/form-fields/index",
-    "form-field-text": "../components/form-fields/form-field-text/index",
-    "i-cell-group": "../components/dist/cell-group/index",
-    "i-cell": "../components/dist/cell/index",
-    "i-divider": "../components/dist/divider/index"
+    "form-field-item": "../components/form-fields/index"
   }
 }

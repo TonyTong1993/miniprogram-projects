@@ -1,5 +1,1 @@
 /* pages/form/form-page.wxss */
-.form-text {
-  background: rebeccapurple;
-}
-

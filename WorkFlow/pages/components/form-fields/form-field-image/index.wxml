@@ -1,15 +1,12 @@
 <!--pages/components/form-fields/form-field-image/index.wxml-->
-<view class='weui-cell' hover-class='weui-cell_active'>
-  <view class='title-box' bindtap='onTapTitleView'>
-    <view class='asterisk-box asterisk'>{{required ? '*':''}}</view>
-    <text class="{{isActive?'title-active':'defaultTextColor'}}">{{title}}</text>
-  </view>
-  <view class='input-view' wx:if="{{isActive}}">
-    <view class='section-display'>
-      <view class='grid-photo' wx:if="{{tempFilePaths.length > 0}}" wx:for="{{tempFilePaths}}" wx:key="">
-        <image class='photo' src="{{item}}" />
-      </view>
+<view class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='onTapTitleView'>
+  <view class='list-cell__content'>
+    <view class='title-box' >
+      <view class='asterisk-box asterisk'>{{required ? '*':''}}</view>
+      <text class="{{isActive?'title-active':'defaultTextColor'}}">{{title}}</text>
     </view>
-    <button bindtap='chooseImage'>获取照片</button>
+    <view class='input-box' wx:if="{{isActive}}" catchtap='onTapInputView'>
+      <upLoader />
+    </view>
   </view>
 </view>

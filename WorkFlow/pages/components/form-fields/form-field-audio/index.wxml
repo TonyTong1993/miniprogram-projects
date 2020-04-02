@@ -1,10 +1,12 @@
 <!--pages/components/form-fields/form-field-audio/index.wxml-->
-<view class='weui-cell' hover-class='weui-cell_active'>
-  <view class='title-box' bindtap='onTapTitleView'>
-    <view class='asterisk-box asterisk'>{{required ? '*':''}}</view>
-    <text class="{{isActive?'title-active':'defaultTextColor'}}">{{title}}</text>
-  </view>
-  <view class='input-view' wx:if="{{isActive}}">
-     <button bindtap='openAudioTool'>添加音频</button>
+<view class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='onTapTitleView'>
+  <view class='list-cell__content'>
+    <view class='title-box' >
+      <view class='asterisk-box asterisk'>{{required ? '*':''}}</view>
+      <text class="{{isActive?'title-active':'defaultTextColor'}}">{{title}}</text>
+    </view>
+    <view class='input-box' wx:if="{{isActive}}" catchtap='onTapInputView'>
+      <view>添加音频</view>
+    </view>
   </view>
 </view>
